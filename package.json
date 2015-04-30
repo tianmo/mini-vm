@@ -1,0 +1,32 @@
+{
+  "name": "mini-vm",
+  "main": "index.js",
+  "version": "0.0.1",
+  "description": "simplify vm",
+  "author": {
+    "name": "tianmo",
+    "email": "azhangwq@gmail.com"
+  },
+  "engines": {
+    "node": ">=0.11.14"
+  },
+  "homepage": "https://github.com/tianmo/mini-vm",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tianmo/mini-vm.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tianmo/mini-vm/issues"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "*",
+    "expect.js": "*",
+    "istanbul": "*"
+  },
+  "scripts": {
+    "prepublish": "make release",
+    "postpublish": "make clean",
+    "test": "make test-cov"
+  }
+}
