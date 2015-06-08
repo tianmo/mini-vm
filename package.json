@@ -1,14 +1,14 @@
 {
   "name": "mini-vm",
   "main": "index.js",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "simplify vm",
   "author": {
     "name": "tianmo",
     "email": "azhangwq@gmail.com"
   },
   "engines": {
-    "node": ">=0.11.14"
+    "node": ">=0.10.20"
   },
   "homepage": "https://github.com/tianmo/mini-vm",
   "repository": {

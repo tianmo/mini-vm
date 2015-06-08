@@ -1,14 +1,4 @@
-var binding = process.binding('contextify');
-var ContextifyScript = binding.ContextifyScript;
-function runInThisContext(code, options) {
-  var script = new ContextifyScript(code, options);
-  return script.runInThisContext();
-}
-
-// function runInContext(code, sandbox, options) {
-//   var script = new ContextifyScript(code, options);
-//   return script.runInContext(sandbox, options);
-// }
+var runInThisContext = require('./context');
 
 var createWrapper = function(sandbox){
   var wrapper = [
