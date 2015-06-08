@@ -17,7 +17,7 @@ var getRunContext_11 = function(){
   };
 };
 
-if(versionSeg[1]/1 <= 10){
+if(versionSeg[0]/1 === 0 && versionSeg[1]/1 <= 10){
   runInThisContext = getRunContext_10();
 }else{
   runInThisContext = getRunContext_11();
